@@ -75,8 +75,6 @@
 
 <h2>📁 Folder Structure</h2>
 
-<h2>📁 Folder Structure</h2>
-
 <pre>
 PEERREVIEWGUIDE
 │

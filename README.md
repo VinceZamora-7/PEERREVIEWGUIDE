@@ -75,25 +75,45 @@
 
 <h2>📁 Folder Structure</h2>
 
+<h2>📁 Folder Structure</h2>
+
 <pre>
 PEERREVIEWGUIDE
 │
-├── pr_feedback.php        → Admin feedback panel
-├── submit_review.php      → Peer review submission handler
-├── update_status.php      → Updates PR status via AJAX
-├── send_email.php         → PHPMailer email sender
+├── PHPMailer-master/
+│   └── src/
+│       ├── DSNConfigurator.php
+│       ├── Exception.php
+│       ├── OAuth.php
+│       ├── OAuthTokenProvider.php
+│       ├── PHPMailer.php
+│       ├── POP3.php
+│       └── SMTP.php
 │
-├── pr-js.js               → Dynamic frontend scripts
-├── pr-css.css             → Styling for forms & admin panel
+├── img/                      → Icons and visual assets
 │
-├── PHPMailer-master/      → Included email library
+├── pr-feedback/              → Admin review & feedback module
+│   ├── accept_review.php
+│   ├── email_debug.log
+│   ├── pr_feedback.css
+│   ├── pr_feedback.php
+│   ├── send_email.php
+│   └── update_status.php
 │
-├── img/                   → Icons, UI images
+├── README.md                 → Documentation
 │
-├── uploads/               → Uploaded proof images
+├── composer.json             → Composer config for PHPMailer
+├── composer.lock
 │
-└── index.html             → Peer Reviewer interface
+├── index.html                → Peer Review submission interface
+│
+├── pr-css.css                → Global styles for forms
+│
+├── pr-js.js                  → Main JavaScript logic
+│
+└── submit_review.php         → Handles form submission logic
 </pre>
+
 
 <hr>
 

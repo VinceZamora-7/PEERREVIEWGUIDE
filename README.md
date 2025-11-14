@@ -144,7 +144,7 @@ PEERREVIEWGUIDE
 </ul>
 
 <h3>3️⃣ Verify Configuration</h3>
-<p>Instead of database credentials, here is a list of the tools and technologies used in this project:</p>
+<p>Tools and technologies used in this project:</p>
 
 <ul>
   <li><strong>PHP</strong> – Backend logic and server-side processing</li>
